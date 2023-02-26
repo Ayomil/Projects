@@ -1,0 +1,9 @@
+body{height:600px; color:white;}
+header{height: 10%; background-color: green; margin:2%;}
+nav{height:10%; background-color: grey; margin:2%}
+main{height: 54%; background-color: white; margin:2%}
+footer{height:10%; background-color: grey; margin:2%}
+section{height:50%;}
+.div {height: 96%; margin: 1%; padding:1%;}
+.top {background-color: grey;}
+.bottom{background-color: green;}

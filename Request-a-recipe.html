@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request a Recipe</title>
+    </head>
+
+<body>
+    <h1>Request a Recipe</h1>
+    <nav style="text-align: center;">
+        <a href="BWDD-appointment-website.html">HOME</a>
+    </nav>
+    <hr>
+
+    <form>
+        <label for="firstnamename">First Name:</label>
+        <br>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+
+        <label for="surname">Surname:</label>
+        <br>
+        <input type="text" name="surname" id="surname">
+        <br>
+
+        <label for="phonenumber">Phonenumber:</label>
+        <br>
+        <input type="tel" name="phonenumber" id="phonenumber">
+        <br>
+
+        <label for="reason">Recipes</label>
+        <br>
+        <select name="reason" id="reason">
+            <option disabled selected>-----Select an option-----</option>
+            <option value="Fried-rice">fried-rice</option>
+            <option value="Jollof-rice">Jollof rice</option>
+            <option value="Beans">Beans</option>
+            <option value="Pounded-Yam">Pounded-Yam</option>
+        </select>
+        <br>
+
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" rows="10" cols="21"></textarea>
+        <br>
+
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+        <br>
+        </form>

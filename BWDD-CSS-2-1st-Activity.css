@@ -1,0 +1,7 @@
+body {height: 600px; color: white;}
+header{height:10%; background-color:green }
+nav {height: 10%; background-color:grey;}
+main {height: 70%}
+footer {height:10%; background-color: green;}
+.top {height:50%; background-color: green;}
+.button {height:50%; background-color: grey;}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floated Layout</title>
+        <style>
+            .wrapper {display:grid; grid-gap: 2em; grid-template-rows: 50px 50px 300px 50px ; grid-template-columns: 100px 100px 100px 100px ; margin-left: 0.5em;}
+            #aa {background-color: lightblue; grid-column: 1/11; }
+            #bb {background-color: lightgreen; grid-column: 1/11; grid-row: 2;}
+            #cc {background-color: lightpink; grid-column: 1/6; grid-row: 3;}
+            #dd {background-color: lightgoldenrodyellow; grid-column: 6/11; grid-row: 3;}
+            #ee {background-color: lightseagreen; grid-column: 1/11; grid-row: 4;}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="aa">
+                <header>Header Content Goes Here </header>
+            </div>
+            <div id="bb">
+                <nav>Nav Content Goes Here</nav>
+            </div>
+            <div id="cc">
+                <section>Main Section Div content goes here</section>
+            </div>
+            <div id="dd">
+                <section>Main Section Div content goes here</section>
+            </div>
+            <div id="ee">
+                <footer>Footer Content Goes Here</footer>
+            </div>
+        </div>
+    </body>
